@@ -1,0 +1,78 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+    
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+     text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 40%;
+  padding-top: 4em;
+  display: block;
+  margin: 0 auto;
+}
+
+.name {
+  padding-top: 4em;
+  color: #58595b;
+}
+
+p {
+  padding-top: 1em;
+}
+
+.bio {
+  text-align: center;
+}
+
+li{
+  display:inline;
+  margin: auto;
+  padding: 10px;
+  color: #ec008c;
+}
+
+.links {
+  text-align: center;
+}
+
+a {
+  color: #ec008c;
+}
+
+a:hover {
+  opacity: 0.2;
+}
+
+@media only screen and (min-width: 20em) {
+  
+   body {
+    max-width: 40em;
+    margin: 0 auto;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+    
+}
+
+@media only screen and (min-width: 44em) {
+  
+          
+}
+
+@media only screen and (min-width: 60em) {
+  
+  
+}
