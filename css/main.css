@@ -17,9 +17,67 @@ html {
   box-sizing: inherit;
 }
 
+.profile {
+  display: block;
+  width: 50%;
+}
+
+li {
+  display:inline;
+  padding: 10px;
+}
+
+.links {
+  text-align: center;
+}
+
+.navigation {
+  padding-top: 2em;
+  text-align: right;
+}
+
+.name {
+  padding-top: 1em;
+  color: #58595b;
+}
+
+.bio {
+  text-align: center;
+}
+
+li{
+  display:inline;
+  margin: auto;
+  padding: 10px;
+  color: #58595b;
+}
+
+.profile {
+    width: 100%;
+    height: auto;
+}
+
+.scroll {
+ 
+}
+
+a {
+  color: #58595b;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
 
 @media only screen and (min-width: 20em) {
-
+   
+  body {
+    max-width: 60em;
+    margin: 0 auto;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
     
 }
 
