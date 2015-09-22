@@ -17,53 +17,9 @@ html {
   box-sizing: inherit;
 }
 
-img {
-  width: 40%;
-  padding-top: 4em;
-  display: block;
-  margin: 0 auto;
-}
-
-.name {
-  padding-top: 4em;
-  color: #58595b;
-}
-
-p {
-  padding-top: 1em;
-}
-
-.bio {
-  text-align: center;
-}
-
-li{
-  display:inline;
-  margin: auto;
-  padding: 10px;
-  color: #ec008c;
-}
-
-.links {
-  text-align: center;
-}
-
-a {
-  color: #ec008c;
-}
-
-a:hover {
-  opacity: 0.2;
-}
 
 @media only screen and (min-width: 20em) {
-  
-   body {
-    max-width: 40em;
-    margin: 0 auto;
-    padding-left: 2em;
-    padding-right: 2em;
-  }
+
     
 }
 
